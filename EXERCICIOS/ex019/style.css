@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+ tudo que em HTML ee id , em CSS ee # - so um elemento por  documento/page
+ tudo que em HTML ee class, em CSS ee "."  - podem ser varios elementos
+*/
+
+body{
+    background-color: rgb(142, 226, 126);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: rgb(4, 109, 0);
+}
+h1#principal{     /* or #principal*/
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+
+h2{
+    color: rgb(73, 109, 71);
+}
+h2.basico{
+    color: blue;
+
+}
+h2.intermediario{
+    color: blueviolet;
+    
+}
+h2.avancado{
+    color: brown;
+}
+
+.destaque{
+    background-color: rgba(97, 2, 2, 0.61);
+}
